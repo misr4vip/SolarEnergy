@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".ManualSolarEnergyModeActivity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logo"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/rb_fullOpt"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/basic"
+            android:text="@string/fullopt"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/rb_MedOpt"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/basic"
+            android:text="@string/medopt"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rb_LowOpt"
+            android:textColor="@color/basic"
+            android:text="@string/LowOpt"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/rb_CustomOpt"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/basic"
+
+            android:text="@string/customoptimizion"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Save Mode"
+        android:id="@+id/btn_SaveMode"
+        android:background="@color/basic"
+        android:textColor="@color/white"/>
+</LinearLayout>

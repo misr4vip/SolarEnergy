@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background2"
+    tools:context=".ui.Connection.ConnectionFragment">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="System Information"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/basic"/>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:text="Get Data"
+    android:id="@+id/btn_getData"
+    android:background="@color/basic"
+    android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Batary"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/basic"/>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/temp"-->
+<!--        android:id="@+id/tv_temp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textColor="@color/basic"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Humdity"-->
+<!--        android:id="@+id/tv_Humdity"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textColor="@color/basic"/>-->
+
+</LinearLayout>

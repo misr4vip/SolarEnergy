@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "264480775187",
+    "firebase_url": "https://solarenergy-f050a.firebaseio.com",
+    "project_id": "solarenergy-f050a",
+    "storage_bucket": "solarenergy-f050a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264480775187:android:e48b8fa0d56afce32973e6",
+        "android_client_info": {
+          "package_name": "com.example.solarenergy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264480775187-h7it2bsd8aravkej0p6afsu8kup12ov7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.solarenergy",
+            "certificate_hash": "9397663928c0b4875e8f0f7479a607258bec8a91"
+          }
+        },
+        {
+          "client_id": "264480775187-38j0gphca4d5flomjf52sr9po59qp9pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCseJh2qvTqII6vPv6bklZtw0aaQYwa9Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264480775187-38j0gphca4d5flomjf52sr9po59qp9pf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SolarEnergy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="UserName">User Name</string>
+    <string name="Pass">Password</string>
+    <string name="login">Login</string>
+    <string name="back">back</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last name</string>
+    <string name="email">Email</string>
+    <string name="pwd">Password</string>
+    <string name="repwd">Retype Password</string>
+    <string name="register">Sign Up</string>
+    <string name="cancel">Cancel</string>
+    <string name="info">System info</string>
+    <string name="custommode">Custom Mode</string>
+    <string name="mode">Mode</string>
+    <string name="manualMode">Manual Traffic Mode</string>
+    <string name="Battry_charge">Battry Charge </string>
+    <string name="customoptimizion">Custom Optimization</string>
+    <string name="autotraficmode">Automatioc Trafic mode</string>
+    <string name="temp">Temperature</string>
+    <string name="sunny">Sunny</string>
+    <string name="indication">Charge Indication</string>
+    <string name="auto">Automatic</string>
+    <string name="manual">Manual</string>
+    <string name="normal">Normal</string>
+    <string name="LowOpt">Low Optimization</string>
+    <string name="medopt">Mediam Optimization</string>
+    <string name="fullopt">Full Optimization</string>
+    <string name="modes">Modes</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_Connection">Connection</string>
+    <string name="menu_Info">Info</string>
+    <string name="menu_Traffic">Traffic Mode</string>
+    <string name="menu_SolarEnergy">Solar Energy</string>
+
+
+</resources>
